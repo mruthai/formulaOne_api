@@ -8,8 +8,8 @@ async function getFone(season,round) {
     const response = await fetch(`http://ergast.com/api/f1/${season}/${round}/driverstandings.json`)
     const data = await response.json()
     
-    // resultContainer.innerHtML -= ``
-
+    resultContainer.innerHTML = ``
+// loop through length in the the table lenght of array. or for OF loop. 
     for (let i = 0; i < 7; i++) {
         resultContainer.innerHTML += `
     
