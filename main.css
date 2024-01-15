@@ -3,27 +3,50 @@
     
 }
 .mainBody{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     width:100%;
     height:100%;
-    background-color: crimson;
+
     
 }
 
+.top-f {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.seerch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userDisplay {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin-right: 300px;  
+}
 .formulaOneTable{
     display: flex;
-    align-content: space-between;
+    width: 700px;
 
 }
-.theTable{
-    flex-direction: column;
-    border-color: gray !important;
+.results {
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.col#table-results {
-   display:flex;
+/* .table-header{
+   color: white;
+   
 }
 
 
+#table-results {
+   
+   color: whitesmoke;
+}
+
+ */

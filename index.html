@@ -35,16 +35,21 @@
         <div class="top-f">
             <h1 id="titleF1">Grand Prix - Formula 1 Results</h1>
         </div>
-            <div class="seerch">
+        <div class="seerch">
             <form action="" id="formulaOneSearch">
                 <input placeholder="season year" type="number" name="seasonId" id="seasonId">
                 <input placeholder="round" type="number" name="roundId" id="roundId">
                 <button class="btn btn-primary">Get Standings</button>
                 <button id="reload" class="btn btn-warning">Reload</button>
             </form>
-            </div>
-        <div class="formulaOneTable">
-            <table class="theTable">
+        </div>
+        <div class="userDisplay">
+            <p id="displaySeasonId">Season Year: </p>
+            <p id="displayRoundId">Round: </p>
+        </div>
+        <div class="results">
+
+            <table class="table table-striped">
                 <tr class="table-header">
                     <th class="col">Position</th>
                     <th class="col">Name</th>
@@ -52,7 +57,7 @@
                     <th class="col">Sponsor</th>
                     <th class="col">Points</th>
                 </tr>
-                <tbody id="table-results">
+                <tbody scope="row" id="table-results">
             </table>
         </div>
     </main>
